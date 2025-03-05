@@ -1,0 +1,9 @@
+name: 'Branch-wide PR Merger'
+description: 'Scans for PRs from a specific branch and merges them.'
+inputs:
+  branch:
+    description: 'Branch name to scan and merge PRs'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
